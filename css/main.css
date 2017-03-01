@@ -1,0 +1,80 @@
+input {
+  outline: none;
+}
+button {
+  outline: none;
+}
+body {
+  color: white;
+  background-color: rgba(237, 237, 237, 0.5);
+}
+a,
+a:active {
+  color: #000;
+  text-decoration: none;
+  font-size: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+header {
+  padding: 1px;
+  text-align: center;
+  text-indent: -0.7rem;
+  background-color: #00d0cb;
+}
+header span {
+  float: left;
+  width: .3rem;
+  height: .3rem;
+  margin: .25rem 0 0 .4rem;
+  border: 2px solid #fff;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transform: rotate(45deg);
+}
+header h1 {
+  margin: .25rem 0;
+  font-size: .3rem;
+  font-weight: normal;
+}
+#purchase {
+  position: fixed;
+  bottom: 1rem;
+  right: .4rem;
+  background: url(../images/sq_0.png);
+  background-size: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+footer {
+  position: fixed;
+  width: 6.4rem;
+  bottom: 0;
+  font-size: 0;
+  background-color: #00d0cb;
+}
+footer a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  height: .84rem;
+  line-height: .84rem;
+  text-align: center;
+}
+footer a img {
+  width: .4rem;
+  height: .4rem;
+  vertical-align: middle;
+}
+footer a:hover {
+  border-bottom: 2px solid #fff;
+}
+footer a:active {
+  border-bottom: 2px solid #fff;
+}

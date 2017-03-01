@@ -1,0 +1,95 @@
+@bg-color:#00d0cb;
+.border-radius (@radius: 5px) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+#main-content{
+	color: #000;
+	background-color: #fff;
+	font-size: .3rem;
+	.title{
+		background-color: #fff;
+		box-shadow: 0 2px 5px  #ddd;
+		font-size: 0;
+		padding:0 0.1rem;
+		.left{
+			display: inline-block;
+			width: 50%;
+			vertical-align: middle;
+			font-size: .35rem;
+			text-indent: .1rem;
+		}
+	}
+	.wrap{
+		padding: .2rem;
+		font-size: 0;
+		border-bottom: 1px solid #cdcdcd;
+		li{
+			font-size: 0;
+		}
+		li+li{
+			margin-top: .25rem;
+		}
+		span{
+			font-size: .25rem;
+			color: #000;
+			vertical-align: middle;
+		}
+		img{
+			height: .5rem;
+			width: .5rem;
+			margin: 0 .2rem 0 0;
+		}
+	}
+	.order_info{
+		font-size: .3rem;
+		margin: .4rem;
+		color: #adadad;
+		border-bottom: 1px solid #ddd;
+		label{
+			margin-left: .4rem;
+		}
+		input{
+			box-sizing: border-box;
+			width: 100%;
+			height: .8rem;
+			margin:.2rem 0 .4rem;
+			padding:.1rem .4rem;
+			.border-radius (.8rem);
+			border: 2px solid #ddd;
+			outline: none;
+			text-align: center;
+			&::-webkit-input-placeholder{
+				color: #000;
+			}
+		}
+	}
+	p{
+		color: #adadad;
+		text-align: right;
+		padding-right: .4rem;
+		line-height: .4rem;
+		span{
+			span{
+				color: #cdcdcd;
+			}
+		}
+	}
+	.payto{
+		color: red;
+	}
+	.submit{
+		height: 1.5rem;
+		text-align: center;
+		button{
+			width: 4.5rem;
+			font-size: .4rem;
+			padding: .25rem;
+			background-color: @bg-color;
+			border-radius: 1rem;
+			color: #fff;
+			border:none; 
+		}
+	}
+}

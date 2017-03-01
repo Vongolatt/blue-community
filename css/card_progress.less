@@ -1,0 +1,91 @@
+ @bg-color:#00d0cb;
+ .img {
+	height: .7rem;
+	width: .7rem;
+	margin: 0 .1rem .2rem  0;
+ }
+ .button (@width:4rem;@bt-color:@bg-color){
+	width: @width;
+	font-size: .3rem;
+	padding: .2rem;
+	background-color: @bt-color;
+	border-radius: .8rem;
+	color: #fff;
+	border:none; 
+	margin: .3rem 0 .5rem;
+ }
+ .decoration(){
+
+ }
+#main-content{
+	.title{
+		background-color: #fff;
+		box-shadow: 0 2px 5px  #ddd;
+		font-size: 0;
+		text-align: center;
+		img{
+			width: 100%;
+		}
+		>div{
+			padding: 0 .1rem;
+			p{
+				font-size: .3rem;
+				color: #000;
+				text-align: left;
+				span{
+					color: @bg-color;
+				}
+			}
+			.user{
+				display: flex;
+				flex-wrap:wrap;
+				justify-content:space-around;
+				align-content:space-around;
+				img{
+					.img;
+				}
+				a{
+					font-size:.5rem;
+					width: .8rem;
+					.img;
+					text-align: center;
+				}
+			}
+			.invitation{
+				.button(3rem;#ff867a);
+				margin-right: .2rem;
+			}
+			.join{
+				.button(3rem;#d598ea);
+			}	
+		}
+	}
+	.details{
+		color: #000;
+		padding: .5rem .4rem;
+		h3{
+			font-size: .35rem;
+			margin: 0;
+		}
+		p{
+			font-size: .25rem;
+			line-height: 2;
+		}
+	}
+	.progress{
+		color: #000;
+		padding: .5rem .4rem;
+		background-color: #fff;
+		h3{
+			font-size: .35rem;
+			margin: 0 0 .5rem 0;
+		}
+		.wrap{
+			position: relative;
+			border: 1px solid #cdcdcd;
+			height: 2000px;
+			z-index: 2;
+			box-shadow:  6px 6px #fff,6px 6px 0 1px #ededed;
+		}
+	}
+}

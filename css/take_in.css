@@ -1,0 +1,89 @@
+#main-content {
+  color: #000;
+  background-color: #fff;
+  font-size: .3rem;
+}
+#main-content .title {
+  background-color: #fff;
+  box-shadow: 0 2px 5px  #ddd;
+  font-size: 0;
+  padding: 0 0.1rem;
+}
+#main-content .title .left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  font-size: .35rem;
+  text-indent: .1rem;
+}
+#main-content .wrap {
+  padding: .2rem;
+  font-size: 0;
+  border-bottom: 1px solid #cdcdcd;
+}
+#main-content .wrap li {
+  font-size: 0;
+}
+#main-content .wrap li + li {
+  margin-top: .25rem;
+}
+#main-content .wrap span {
+  font-size: .25rem;
+  color: #000;
+  vertical-align: middle;
+}
+#main-content .wrap img {
+  height: .5rem;
+  width: .5rem;
+  margin: 0 .2rem 0 0;
+}
+#main-content .order_info {
+  font-size: .3rem;
+  margin: .4rem;
+  color: #adadad;
+  border-bottom: 1px solid #ddd;
+}
+#main-content .order_info label {
+  margin-left: .4rem;
+}
+#main-content .order_info input {
+  box-sizing: border-box;
+  width: 100%;
+  height: .8rem;
+  margin: .2rem 0 .4rem;
+  padding: .1rem .4rem;
+  border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  border: 2px solid #ddd;
+  outline: none;
+  text-align: center;
+}
+#main-content .order_info input::-webkit-input-placeholder {
+  color: #000;
+}
+#main-content p {
+  color: #adadad;
+  text-align: right;
+  padding-right: .4rem;
+  line-height: .4rem;
+}
+#main-content p span span {
+  color: #cdcdcd;
+}
+#main-content .payto {
+  color: red;
+}
+#main-content .submit {
+  height: 1.5rem;
+  text-align: center;
+}
+#main-content .submit button {
+  width: 4.5rem;
+  font-size: .4rem;
+  padding: .25rem;
+  background-color: #00d0cb;
+  border-radius: 1rem;
+  color: #fff;
+  border: none;
+}

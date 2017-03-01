@@ -1,0 +1,103 @@
+#main-content .title {
+  background-color: #fff;
+  box-shadow: 0 2px 5px  #ddd;
+}
+#main-content .title img {
+  width: 100%;
+}
+#main-content .title > div {
+  font-size: 0;
+  padding: 0 0.1rem;
+}
+#main-content .title > div .left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  color: #000;
+  font-size: .35rem;
+  text-indent: .1rem;
+}
+#main-content .title > div .right {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+#main-content .title > div .right img {
+  width: .3rem;
+}
+#main-content .title > div .right span {
+  font-size: .22rem;
+  color: #cdcdcd;
+  vertical-align: top;
+  padding: 0 5px;
+  line-height: .3rem;
+}
+#main-content .details {
+  padding: 0 .15rem;
+  font-size: .25rem;
+  color: #000;
+  text-indent: .5rem;
+  line-height: 1.5;
+}
+#main-content .details a {
+  color: #00d0cb;
+}
+#main-content .info {
+  background: #fff;
+}
+#main-content .info .wrap {
+  padding: .2rem;
+  border-top: 1px solid #ddd;
+  font-size: 0;
+}
+#main-content .info .wrap li {
+  font-size: 0;
+}
+#main-content .info .wrap li + li {
+  margin-top: .25rem;
+}
+#main-content .info .wrap span {
+  font-size: .25rem;
+  color: #000;
+  vertical-align: middle;
+}
+#main-content .info .wrap img {
+  height: .5rem;
+  width: .5rem;
+  margin: 0 .2rem 0 0;
+}
+#main-content .info .wrap h3 {
+  margin: 0 0 .2rem 0;
+  color: #cdcdcd;
+  font-size: .25rem;
+}
+#main-content .info .member {
+  color: #000;
+}
+#main-content .info .member img {
+  height: .7rem;
+  width: .7rem;
+}
+#main-content .info .member a {
+  display: inline-block;
+  font-size: .7rem;
+  height: .35rem;
+  line-height: 0;
+  vertical-align: middle;
+}
+#main-content .info button {
+  width: 4rem;
+  font-size: .4rem;
+  padding: .25rem;
+  background-color: #00d0cb;
+  border-radius: 1rem;
+  color: #fff;
+  border: none;
+}
+#main-content .info button span {
+  color: #fff !important;
+  font-size: .15rem;
+}
+#main-content .center {
+  text-align: center;
+}

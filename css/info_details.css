@@ -1,0 +1,43 @@
+#main-content {
+  color: #000;
+}
+#main-content .title {
+  background-color: #fff;
+  box-shadow: 0 2px 5px  #ddd;
+  font-size: 0;
+  padding: 0 0.1rem;
+}
+#main-content .title .left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  font-size: .35rem;
+  text-indent: .1rem;
+}
+#main-content .title .right {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+#main-content .title .right img {
+  width: .3rem;
+}
+#main-content .title .right span {
+  font-size: .22rem;
+  color: #cdcdcd;
+  vertical-align: top;
+  padding: 0 5px;
+  line-height: .3rem;
+}
+#main-content .content {
+  padding: 0 .2rem;
+}
+#main-content .content p {
+  font-size: .25rem;
+  text-indent: .5rem;
+}
+#main-content .content img {
+  width: 100%;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}

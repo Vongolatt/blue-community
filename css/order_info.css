@@ -1,0 +1,33 @@
+#main-content {
+  color: #000;
+  font-size: .3rem;
+}
+#main-content .title {
+  background-color: #fff;
+  box-shadow: 0 2px 5px  #ddd;
+  font-size: 0;
+  padding: 0 0.1rem;
+}
+#main-content .title .left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  font-size: .35rem;
+  text-indent: .1rem;
+}
+#main-content .content h3 {
+  margin: .3rem 0 .1rem .2rem;
+}
+#main-content .content .info {
+  padding: .2rem .2rem;
+  background-color: #fff;
+}
+#main-content .content .info span {
+  line-height: 1.5;
+}
+#main-content .content .info .key {
+  color: #adadad;
+}
+#main-content .content .info .value {
+  color: red;
+}

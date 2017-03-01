@@ -1,0 +1,78 @@
+@bg-color:#00d0cb;
+header{
+		margin-bottom: 5px;
+}
+#main-content{
+	width: 6.4rem;
+	margin-bottom: .84rem;		
+	img{
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.action{
+		img{
+			padding: 5px 5px 0;
+		}
+	}
+	figure{
+		position: relative;
+		margin: 5px;
+		background-color: #fff;
+		color: #000;
+		.wrap{
+			padding:0 6px;
+			figcaption{
+				font-size: .3rem;
+				font-weight: 600;
+				margin: .1rem 0;
+				.join{
+					width: 48%;
+					display: inline-block;
+					text-align: right;
+					color: #ddd;
+					font-size: .2rem;
+				strong{
+					color: @bg-color;
+				}
+			}
+		}
+			.end-time{
+				position: absolute;
+				left: -2px;
+				top: .3rem;
+				padding: 8px 6px;
+				font-size: .2rem;
+				background-color: @bg-color;
+				color: #fff;
+			}
+			.time,.area{
+				padding: .08rem 0;
+				font-size: .27rem;
+				img {
+					height: .56rem;
+					width: .44rem;
+					margin-right: .15rem;
+					vertical-align: middle;
+				}
+				span{
+					vertical-align: middle;
+					b{
+						display: inline-block;
+						width: .06rem;
+						height: .06rem;
+						margin: 0 1px;
+						border-radius: 50%;
+						background-color: #ddd;
+						vertical-align: middle;
+					}
+				}
+			}
+			.time{
+				img{
+					height: .44rem;
+					width: .44rem;
+				}
+			}
+		}
+	}
+}
