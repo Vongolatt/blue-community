@@ -1,3 +1,23 @@
+.bt-left {
+  content: '';
+  position: absolute;
+  top: -0.1rem;
+  left: 1rem;
+  width: .6rem;
+  height: .2rem;
+  border-radius: .1rem;
+  background-color: #00d0cb;
+}
+.bt-right {
+  content: '';
+  position: absolute;
+  top: -0.1rem;
+  right: 1rem;
+  width: .6rem;
+  height: .2rem;
+  border-radius: .1rem;
+  background-color: #00d0cb;
+}
 .img {
   height: .7rem;
   width: .7rem;
@@ -86,8 +106,86 @@
 }
 #main-content .progress .wrap {
   position: relative;
+  padding: .2rem 0;
   border: 1px solid #cdcdcd;
-  height: 2000px;
-  z-index: 2;
   box-shadow: 6px 6px #fff,6px 6px 0 1px #ededed;
+}
+#main-content .progress .wrap::before {
+  content: '';
+  position: absolute;
+  top: -0.1rem;
+  left: 1rem;
+  width: .6rem;
+  height: .2rem;
+  border-radius: .1rem;
+  background-color: #00d0cb;
+}
+#main-content .progress .wrap::after {
+  content: '';
+  position: absolute;
+  top: -0.1rem;
+  right: 1rem;
+  width: .6rem;
+  height: .2rem;
+  border-radius: .1rem;
+  background-color: #00d0cb;
+}
+#main-content .progress .wrap > div {
+  font-size: 0;
+  padding: .2rem;
+}
+#main-content .progress .wrap > div + div {
+  border-top: 1px solid #ededed;
+}
+#main-content .progress .wrap > div div {
+  display: inline-block;
+}
+#main-content .progress .wrap > div.hover {
+  background-color: #ff867a;
+}
+#main-content .progress .wrap > div.hover .left .order {
+  background-color: #fff;
+  color: #ff867a;
+}
+#main-content .progress .wrap > div.hover .left b {
+  color: #fff;
+}
+#main-content .progress .wrap > div.hover .right {
+  color: #fff;
+}
+#main-content .progress .wrap > div .left {
+  font-size: .2rem;
+  width: 50%;
+}
+#main-content .progress .wrap > div .left span {
+  display: inline-block;
+  vertical-align: middle;
+}
+#main-content .progress .wrap > div .left .order {
+  color: #fff;
+  display: inline-block;
+  margin-right: .1rem;
+  width: .5rem;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff867a;
+}
+#main-content .progress .wrap > div .left b {
+  color: #adadad;
+  line-height: .25rem;
+  font-weight: normal;
+}
+#main-content .progress .wrap > div .right {
+  font-size: .2rem;
+  width: 50%;
+  text-align: right;
+  color: #cdcdcd;
+}
+#main-content .progress .wrap > div .red {
+  color: #ff867a;
+}
+#main-content .progress .wrap > div .pink {
+  color: #d598ea;
 }
