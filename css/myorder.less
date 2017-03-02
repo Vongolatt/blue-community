@@ -27,7 +27,12 @@
 		.item{
 			background-color: #fff;
 			padding: .15rem;
+			margin-bottom: .2rem;
+			text-align: right;
 			.wrap{
+				padding-bottom: .2rem ;
+				border-bottom: .02rem solid #ddd;
+				text-align: left;
 				img{
 					width: 1.8rem;
 					vertical-align: top;
@@ -35,16 +40,48 @@
 				div{
 					color: #000;
 					display: inline-block;
-					width: 60%;
+					width: 65%;
 					margin-left: .25rem;
 					h3{	
+						position: relative;
 						font-size: .3rem;
 						margin: 0;
+						&:before{
+							content: '';
+							position: absolute;
+							height: .08rem;
+							width: .08rem;
+							top: .12rem;
+							left: -.12rem;
+							background-color:#ff78b6; 
+							border-radius: 50%;
+						}
+						&::after{
+							content: '';
+							background:url(../images/left_arrow.png) no-repeat;
+							background-size: 100%;
+							position: absolute;
+							height: .4rem;
+							width: .4rem;
+							right: .1rem;
+						}
 					}
-					span{
+					p{	
+						display: table-cell;
+						height: 1rem;
+						vertical-align: middle;
+						span{
 						font-size: .2rem;
+						line-height: .35rem;
+						vertical-align: middle;
+						}					
 					}
 				}
+			}
+			button{
+				.button(2rem;#ff78b6);
+				padding: .1rem;
+				margin: .1rem 0 0;
 			}
 		}
 	}

@@ -33,6 +33,13 @@
 #main-content .order-list .item {
   background-color: #fff;
   padding: .15rem;
+  margin-bottom: .2rem;
+  text-align: right;
+}
+#main-content .order-list .item .wrap {
+  padding-bottom: .2rem ;
+  border-bottom: .02rem solid #ddd;
+  text-align: left;
 }
 #main-content .order-list .item .wrap img {
   width: 1.8rem;
@@ -41,13 +48,52 @@
 #main-content .order-list .item .wrap div {
   color: #000;
   display: inline-block;
-  width: 60%;
+  width: 65%;
   margin-left: .25rem;
 }
 #main-content .order-list .item .wrap div h3 {
+  position: relative;
   font-size: .3rem;
   margin: 0;
 }
-#main-content .order-list .item .wrap div span {
+#main-content .order-list .item .wrap div h3:before {
+  content: '';
+  position: absolute;
+  height: .08rem;
+  width: .08rem;
+  top: .12rem;
+  left: -0.12rem;
+  background-color: #ff78b6;
+  border-radius: 50%;
+}
+#main-content .order-list .item .wrap div h3::after {
+  content: '';
+  background: url(../images/left_arrow.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  height: .4rem;
+  width: .4rem;
+  right: .1rem;
+}
+#main-content .order-list .item .wrap div p {
+  display: table-cell;
+  height: 1rem;
+  vertical-align: middle;
+}
+#main-content .order-list .item .wrap div p span {
   font-size: .2rem;
+  line-height: .35rem;
+  vertical-align: middle;
+}
+#main-content .order-list .item button {
+  width: 2rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #ff78b6;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+  padding: .1rem;
+  margin: .1rem 0 0;
 }
