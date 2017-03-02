@@ -75,6 +75,7 @@ footer a img {
 footer a:hover {
   border-bottom: 2px solid #fff;
 }
-footer a:active {
+footer a:active,
+footer a:visited {
   border-bottom: 2px solid #fff;
 }

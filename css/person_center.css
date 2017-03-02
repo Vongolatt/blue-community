@@ -1,0 +1,56 @@
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
+}
+body {
+  font-size: .3rem;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+#main-content {
+  height: 100%;
+}
+#main-content .user {
+  color: #000;
+}
+#main-content .user figure {
+  margin: 0;
+  padding: .3rem 0 1.2rem;
+  text-align: center;
+  background: url(../images/my_0.jpg) no-repeat bottom;
+  background-size: 100%;
+}
+#main-content .user figure img {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: .1rem solid #fff;
+  margin-bottom: .2rem;
+}
+#main-content .list {
+  height: 100%;
+  padding: .2rem .2rem 0;
+  font-size: 0;
+  background-color: #00ddd7;
+  text-align: center;
+}
+#main-content .list div {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: .4rem .5rem;
+}
+#main-content .list div img {
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: .2rem;
+}
+#main-content .list div span {
+  color: #fff;
+  font-size: .3rem;
+  white-space: nowrap;
+}

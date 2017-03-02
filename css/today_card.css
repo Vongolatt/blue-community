@@ -1,22 +1,7 @@
-.bt-left {
-  content: '';
-  position: absolute;
-  top: -0.1rem;
-  left: 1rem;
-  width: .6rem;
-  height: .2rem;
-  border-radius: .1rem;
-  background-color: #00d0cb;
-}
-.bt-right {
-  content: '';
-  position: absolute;
-  top: -0.1rem;
-  right: 1rem;
-  width: .6rem;
-  height: .2rem;
-  border-radius: .1rem;
-  background-color: #00d0cb;
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
 }
 #main-content .time {
   border-bottom: 1px solid #ededed;
@@ -39,6 +24,7 @@
 #main-content .time .left span,
 #main-content .time .right span {
   padding: 0 .1rem;
+  vertical-align: middle;
 }
 #main-content .time .left .change,
 #main-content .time .right .change {
@@ -48,6 +34,7 @@
   color: #d699e9;
   border-left: 1px solid #000;
   height: .3rem;
+  vertical-align: middle;
 }
 #main-content .time .right {
   width: 55%;

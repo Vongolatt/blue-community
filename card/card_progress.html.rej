@@ -1,0 +1,9 @@
+diff a/card/card_progress.html b/card/card_progress.html	(rejected hunks)
+@@ -50,6 +50,7 @@
+ 		<div class="progress">
+ 			<h3>打卡日程</h3>
+ 			<div class="wrap">
++				<div>
+ 					<div class="left">
+ 						<span class="order">1</span>
+ 						<span class="time">2016-05-02 9:00 </br><b>21天打卡行动</b></span>
