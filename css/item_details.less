@@ -1,0 +1,82 @@
+@import url(vary.less);
+body{
+	font-size: 0;
+}
+img{
+	width: 100%;
+}
+#main-content{
+	figure{
+		position: relative;
+		margin:0;
+		padding-bottom: .1rem;
+		background-color: #fff;
+		color: #000;
+		.wrap{
+			padding:0 6px;
+			figcaption{
+				font-size: .3rem;
+				font-weight: 600;
+				margin: .2rem 0 0;
+				.sold-number{
+					float: right;
+					width: 45%;
+					line-height: 1.5;
+					display: inline-block;
+					text-align: right;
+					color: #adadad;
+					font-size: .25rem;
+					img{
+						width: .35rem;
+						height: .35rem;
+						margin-right: .1rem;
+						vertical-align: top;
+					}
+				}
+			}
+			.price{
+				padding: .08rem 0;
+				font-size: .27rem;
+				color: #adadad;
+				span{
+					vertical-align: middle;
+				}
+				.sales-price{
+					color: red;
+				}
+				.primary-price{
+					text-decoration: line-through;
+				}
+			}
+		}
+	}
+	.item-info{
+		margin: .2rem 0;
+		background-color: #fff;
+		text-align: center;
+		font-size: .26rem;
+		color: #000;
+		span{
+			display: inline-block;
+			box-sizing: border-box;
+			padding: .3rem .2rem;
+			width: 2rem;
+			font-size: .24rem;
+			text-align: right;
+			background: #fff no-repeat;
+			background-size: .45rem;
+			&:first-child{
+				background-image: url(../images/sale_num.png);
+				background-position: .1rem center;
+			}
+			&:nth-child(2){
+				background-image: url(../images/point.png);
+				background-position: .25rem center;
+			}
+			&:last-child{
+				background-image: url(../images/ensure.png);
+				background-position: .25rem center;
+			}
+		}
+	}
+}
