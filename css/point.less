@@ -1,0 +1,120 @@
+@import url(vary.less);
+@type1-color:#d597e8;
+#main-content{
+	.point	{
+		padding: 1px;
+		margin-bottom: .2rem;
+		background-color: #fff;
+		text-align: center;
+		figure{
+			margin: .2rem auto;
+			text-align: center;	
+			img{
+				width: 1.3rem;
+				height: 1.3rem;
+				border-radius:50%;
+				border: 3px solid #ddd;
+			}
+			figcaption{
+				width: 2.3rem;
+				height: .6rem;
+				line-height: .6rem;
+				border-radius: .6rem;
+				margin: .2rem auto;
+				font-size: .4rem;
+				text-indent: .45rem;
+				background-color: @bg-color;
+				background: @bg-color url(../images/my_6.jpg) no-repeat .35rem center;
+				background-size: 13%;
+			}
+		}	
+		nav{
+			font-size: 0;
+			span{
+				display: inline-block;
+				width: 40%;
+				box-sizing: border-box;
+				padding: 0 .3rem;
+				margin: 0 .5rem 0 .1rem;
+				color: #000;
+				font-size: .3rem;
+				height: .9rem;
+				line-height: .9rem;
+				text-align: center;
+				cursor: pointer;
+			}
+			.pay{
+				margin: 0 .1rem 0 .5rem;
+			}
+			.check{border-bottom: .08rem solid @bg-color;}
+		}
+	}
+	.point-list{
+		margin: 0 .2rem;
+		font-size: 0;
+		.item{
+			position: relative;
+			margin: 1rem 0;
+			+.item::before{
+				content: '';
+				position: absolute;
+				left: 0.25rem;
+				top: -1.8rem;
+				height: 2rem;
+				width: 1px;
+				background-color: #adadad;
+				z-index: -1;
+			}
+			.item-type{
+				display: inline-block;
+				width: .5rem;
+				height: .5rem;
+				margin-right: .3rem;
+				line-height: .5rem;
+				font-size: .3rem;
+				font-weight: bold;
+				text-align: center;
+				border-radius: 50%;
+				background-color: @type1-color;
+			}
+			.content{
+				display: inline-block;
+				position: relative;
+				padding: .2rem ;
+				width: 4.8rem;
+				border-radius: .1rem;
+				background-color: #fff;
+				font-size: .3rem;
+				color: #000;
+				.right-point{
+					float: right;
+					color: red;
+				}
+				.unpay{
+					color: @bg-color;
+				}
+				&::before{
+					content: '';
+					position: absolute;
+					left: -.35rem;
+					top: .16rem;
+					height: 0;
+					width: 0;
+					border: .2rem solid transparent;
+					border-right: .2rem solid #fff;
+				}
+			}
+			p{
+				color: #adadad;
+				font-size: .3rem;
+				text-align: right;
+				margin: .2rem auto;
+			}
+		}
+	}
+	.loading{
+		text-align: center;
+		font-size: .4rem;
+		color: #adadad;
+	}
+}
