@@ -97,3 +97,16 @@
   padding: .1rem;
   margin: .1rem 0 0;
 }
+#main-content .order-list .item .price {
+  color: #ff78b6;
+  margin-top: .1rem;
+}
+#main-content .order-list .item .price img {
+  width: .35rem;
+  height: .35rem;
+  margin-right: .1rem;
+}
+#main-content .order-list .item .price span {
+  font-size: .3rem;
+  vertical-align: middle;
+}
