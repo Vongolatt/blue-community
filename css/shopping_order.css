@@ -1,0 +1,70 @@
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
+}
+#main-content .order-number {
+  padding: .15rem;
+  text-align: right;
+  font-size: .25rem;
+  color: #000;
+}
+#main-content .order-list {
+  background-color: #fff;
+  margin-top: .2rem;
+}
+#main-content .order-list .item:nth-child(2) {
+  border-top: 1px solid #ddd;
+}
+#main-content .order-list .wrap + .wrap {
+  margin-top: .2rem;
+}
+#main-content .order-list img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#main-content .order-list p {
+  display: block !important;
+  width: 100%;
+}
+#main-content .order-list p span {
+  font-size: .25rem !important;
+}
+#main-content .order-list p span:last-child {
+  float: right;
+  color: red;
+}
+#main-content .order-list p .more {
+  color: #00d0cb !important;
+}
+#main-content .order-list .order-date {
+  color: #000;
+  font-size: .2rem;
+}
+#main-content .order-list .order-date span {
+  display: inline-block;
+  width: 57%;
+  text-align: left;
+  margin-top: .2rem;
+  vertical-align: middle;
+}
+#main-content .order-list .order-date button {
+  vertical-align: middle;
+  width: 1.2rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #ff78b6;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+  font-size: .25rem;
+  padding: 0;
+  margin: .2rem 0 0 0;
+  border: 2px solid #ff78b6;
+}
+#main-content .order-list .order-date .cancel {
+  background-color: #fff;
+  color: #ddd;
+  border: 2px solid #ddd;
+}
