@@ -1,0 +1,140 @@
+@import url(vary.less);
+#main-content{
+	font-size: 0;
+	.item{
+		background-color: #fff;
+		padding: .15rem;
+		margin-bottom: .2rem;
+		text-align: right;
+		.check{
+			display: inline-block;
+			vertical-align: top;
+			margin-top: .8rem;
+			label{
+				&::before{
+					border-color: @bg-color;
+				}
+				&::after{
+					border-left-color: @bg-color;
+					border-bottom-color:@bg-color;
+				}
+			}
+		}
+		.wrap{
+			display: inline-block;
+			width: 91%;
+			text-align: left;
+			img{
+				width: 1.5rem;
+				height: 1.5rem;
+				vertical-align: top;
+			}
+			.content{
+				color: #000;
+				display: inline-block;
+				width: 65%;
+				margin-left: .25rem;
+				h3{	
+					position: relative;
+					font-size: .3rem;
+					margin: 0;
+				}
+				.info{	
+					display: table-cell;
+					height: 1.2rem;
+					vertical-align: middle;
+					.price{
+						color: #adadad;
+						margin-bottom: .2rem;
+						font-size: .27rem;
+						.sales-price{
+							color: red;
+						}
+						.primary-price{
+							text-decoration: line-through;
+						}
+					}
+					.item-number{
+						font-size: .25rem;
+						color: #adadad;
+						.down,.plus,input{
+							border: 2px solid #cdcdcd;
+							padding: .05rem;
+							width: .8rem;
+							text-align: center;
+							vertical-align: middle;
+						}
+						.down,.plus{
+							display: inline-block;
+							width: .3rem;		
+						}
+					}					
+				}
+			}
+			.fee{
+				text-align: left;
+				padding-top: .1rem;
+				margin: .1rem 0;
+				border-top: .02rem solid #ddd;
+				font-size: .25rem;
+				color: #bdbdbd;
+				.delete{
+					float: right;
+					color: @bg-color;
+					cursor: pointer;
+				}
+			}
+		}
+		+.item{
+			margin-top: .2rem;
+		}
+	}
+}
+#footer{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	padding: 0 .1rem;
+	font-size: .27rem;
+	.check{
+		display: inline-block;
+		label{
+			&::before{
+				top: -2px;
+				background-color: #fff;
+				border-color: #fff;
+			}
+			&::after{
+				border-left-color: @bg-color;
+				border-bottom-color:@bg-color;
+			}
+		}
+	}
+	span{
+		font-size: .2rem;
+		strong{
+			font-size: .27rem;
+		}
+	}
+	button{
+		.button(2.3rem,#ff78b6);
+		margin: 0;
+	}
+}
+#delete-page{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5) url();
+	text-align: center;
+	z-index: 33;
+	button{
+		.button(2.3rem);
+		margin-top: 5rem;
+	}
+	.sure{
+		background-color:#ff78b6; 
+	}
+}

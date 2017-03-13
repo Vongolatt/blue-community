@@ -1,0 +1,157 @@
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
+}
+#main-content {
+  font-size: 0;
+}
+#main-content .item {
+  background-color: #fff;
+  padding: .15rem;
+  margin-bottom: .2rem;
+  text-align: right;
+}
+#main-content .item .check {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: .8rem;
+}
+#main-content .item .check label::before {
+  border-color: #00d0cb;
+}
+#main-content .item .check label::after {
+  border-left-color: #00d0cb;
+  border-bottom-color: #00d0cb;
+}
+#main-content .item .wrap {
+  display: inline-block;
+  width: 91%;
+  text-align: left;
+}
+#main-content .item .wrap img {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: top;
+}
+#main-content .item .wrap .content {
+  color: #000;
+  display: inline-block;
+  width: 65%;
+  margin-left: .25rem;
+}
+#main-content .item .wrap .content h3 {
+  position: relative;
+  font-size: .3rem;
+  margin: 0;
+}
+#main-content .item .wrap .content .info {
+  display: table-cell;
+  height: 1.2rem;
+  vertical-align: middle;
+}
+#main-content .item .wrap .content .info .price {
+  color: #adadad;
+  margin-bottom: .2rem;
+  font-size: .27rem;
+}
+#main-content .item .wrap .content .info .price .sales-price {
+  color: red;
+}
+#main-content .item .wrap .content .info .price .primary-price {
+  text-decoration: line-through;
+}
+#main-content .item .wrap .content .info .item-number {
+  font-size: .25rem;
+  color: #adadad;
+}
+#main-content .item .wrap .content .info .item-number .down,
+#main-content .item .wrap .content .info .item-number .plus,
+#main-content .item .wrap .content .info .item-number input {
+  border: 2px solid #cdcdcd;
+  padding: .05rem;
+  width: .8rem;
+  text-align: center;
+  vertical-align: middle;
+}
+#main-content .item .wrap .content .info .item-number .down,
+#main-content .item .wrap .content .info .item-number .plus {
+  display: inline-block;
+  width: .3rem;
+}
+#main-content .item .wrap .fee {
+  text-align: left;
+  padding-top: .1rem;
+  margin: .1rem 0;
+  border-top: .02rem solid #ddd;
+  font-size: .25rem;
+  color: #bdbdbd;
+}
+#main-content .item .wrap .fee .delete {
+  float: right;
+  color: #00d0cb;
+  cursor: pointer;
+}
+#main-content .item + .item {
+  margin-top: .2rem;
+}
+#footer {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0 .1rem;
+  font-size: .27rem;
+}
+#footer .check {
+  display: inline-block;
+}
+#footer .check label::before {
+  top: -2px;
+  background-color: #fff;
+  border-color: #fff;
+}
+#footer .check label::after {
+  border-left-color: #00d0cb;
+  border-bottom-color: #00d0cb;
+}
+#footer span {
+  font-size: .2rem;
+}
+#footer span strong {
+  font-size: .27rem;
+}
+#footer button {
+  width: 2.3rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #ff78b6;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+  margin: 0;
+}
+#delete-page {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5) url();
+  text-align: center;
+  z-index: 33;
+}
+#delete-page button {
+  width: 2.3rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #00d0cb;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+  margin-top: 5rem;
+}
+#delete-page .sure {
+  background-color: #ff78b6;
+}
