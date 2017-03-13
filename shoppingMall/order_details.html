@@ -5,21 +5,31 @@
 	<title>蓝色社区</title>
 	<link href="http://cdn.bootcss.com/normalize/5.0.0/normalize.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/item_order.css">
+	<link rel="stylesheet" href="../css/order_details.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
 	<header>
 		<a href="#" onclick="javascipt:history.go(-1);"><span></span></a>
-		<h1>商品订单</h1>
+		<h1>蓝色生活社区</h1>
 	</header>
 	<div id="main-content">
-		<section class="address">
-			<span class="revise-address">修改</span>
-			<span>收货人&nbsp;:&nbsp;张海燕&nbsp;&nbsp;18792548339</span></br>
+		<section class="order-number">
 			<span>陕西西安高新区科技路大厦E座12层</span>
 		</section>
-		<div class="details">
+		<section class="customer">
+			<h3>收货人信息</h3>
+			<div class="content">
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span></br>
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span></br>
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span>
+			</div>
+		</section>
+		<h3>订单详情</h3>
+		<section class="order-details">
 			<section class="item">
 				<div class="wrap">
 					<img src="../images/jdxq_3.jpg" alt="">
@@ -52,27 +62,26 @@
 					</div>
 				</div>
 			</section>
-			<section class="point">
-				<label for="score">使用积分<span>(100积分1元)</span></label>
-				<input type="number" id="score" placeholder="2000">
+			<section class="order-status">
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span></br>
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span></br>
+				<span class="item">收货人姓名</span>
+				<span class="item-description">张海燕</span>
 			</section>
-			<section class="extra">
-				<span>特别说明</span>
-				<textarea placeholder="请输入内容"></textarea>
-			</section>
-			<section class="order-info">
-				<p>总金额 : <span> &yen; 523</span></p>
-				<p>积分优惠 : <span> -&yen; 23</span></p>
-				<p>实付 : <span> &yen; 523</span></p>
-			</section>
-			<section class="take-in">
-				
-			</section>
-		</div>
-		<div class="submit">
-			<a href="order_details.html"><button>提交订单</button></a>
-		</div>
+		</section>
+		<h3>积分消费</h3>
+		<section class="point-pay">
+			<span class="item">收货人姓名</span>
+			<span class="item-description point-tax">张海燕</span></br>
+			<span class="item">收货人姓名</span>
+			<span class="item-description">张海燕</span>
+		</section>
+		<section class="cancel">
+			<button>取消订单</button>
+		</section>
 	</div>
-	</body>
+</body>
 <script src="../js/main.js"></script>
 </html>

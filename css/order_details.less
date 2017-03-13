@@ -1,0 +1,101 @@
+@import url(vary.less);
+.item{
+	color: #adadad;
+}
+.item-description{
+	color: #000;
+}
+#main-content{
+	>h3{
+			margin: .4rem 0 .2rem .2rem;
+		}
+	font-size: .3rem;
+	color: #000;
+	.order-number{
+		background-color: #fff;
+		padding: .3rem .2rem;
+		box-shadow: 0 2px 8px 0 #ddd;
+	}
+	.customer{
+		h3{
+			margin: .2rem;
+		}
+		.content{
+			padding:  .2rem;
+			border: 1px solid #ddd;
+			line-height: .4rem;
+			background-color: #fff;
+		}
+	}
+	.order-details{
+		border: 1px solid #ddd;
+		.item{
+			padding:  .2rem;
+			text-align: right;
+			.wrap{
+				text-align: left;
+				img{
+					width: 1.2rem;
+					height: 1.2rem;
+					vertical-align: top;
+				}
+				.content{
+					color: #000;
+					display: inline-block;
+					width: 78%;
+					h3{	
+						
+						font-size: .3rem;
+						margin-top: .2rem;
+					}
+					.price{
+						color: #adadad;
+						margin-bottom: .2rem;
+						font-size: .27rem;
+						.sales-price{
+							color: red;
+							font-weight: bold;
+						}
+						.primary-price{
+							text-decoration: line-through;
+						}
+						.number{
+							float: right;
+							color: red;
+						}
+					}		
+
+				}
+				.fee{
+					text-align: left;
+					padding-bottom: .1rem;
+					border-bottom: .02rem solid #ddd;
+					font-size: .25rem;
+					color: #bdbdbd;
+					span{
+						float: right;
+					}
+				}
+			}
+		}
+		.order-status{
+			padding-top: .2rem;
+			line-height: .4rem;
+		}
+	}
+	.point-pay{
+		padding:  .2rem;
+		border: 1px solid #ddd;
+		line-height: .4rem;
+		background-color: #fff;
+		.point-tax{
+			color: red;
+		}
+	}
+	.cancel{
+		text-align: center;
+		button{
+			.button;
+		}
+	}	
+}

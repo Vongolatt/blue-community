@@ -1,0 +1,108 @@
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
+}
+.item {
+  color: #adadad;
+}
+.item-description {
+  color: #000;
+}
+#main-content {
+  font-size: .3rem;
+  color: #000;
+}
+#main-content > h3 {
+  margin: .4rem 0 .2rem .2rem;
+}
+#main-content .order-number {
+  background-color: #fff;
+  padding: .3rem .2rem;
+  box-shadow: 0 2px 8px 0 #ddd;
+}
+#main-content .customer h3 {
+  margin: .2rem;
+}
+#main-content .customer .content {
+  padding: .2rem;
+  border: 1px solid #ddd;
+  line-height: .4rem;
+  background-color: #fff;
+}
+#main-content .order-details {
+  border: 1px solid #ddd;
+}
+#main-content .order-details .item {
+  padding: .2rem;
+  text-align: right;
+}
+#main-content .order-details .item .wrap {
+  text-align: left;
+}
+#main-content .order-details .item .wrap img {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: top;
+}
+#main-content .order-details .item .wrap .content {
+  color: #000;
+  display: inline-block;
+  width: 78%;
+}
+#main-content .order-details .item .wrap .content h3 {
+  font-size: .3rem;
+  margin-top: .2rem;
+}
+#main-content .order-details .item .wrap .content .price {
+  color: #adadad;
+  margin-bottom: .2rem;
+  font-size: .27rem;
+}
+#main-content .order-details .item .wrap .content .price .sales-price {
+  color: red;
+  font-weight: bold;
+}
+#main-content .order-details .item .wrap .content .price .primary-price {
+  text-decoration: line-through;
+}
+#main-content .order-details .item .wrap .content .price .number {
+  float: right;
+  color: red;
+}
+#main-content .order-details .item .wrap .fee {
+  text-align: left;
+  padding-bottom: .1rem;
+  border-bottom: .02rem solid #ddd;
+  font-size: .25rem;
+  color: #bdbdbd;
+}
+#main-content .order-details .item .wrap .fee span {
+  float: right;
+}
+#main-content .order-details .order-status {
+  padding-top: .2rem;
+  line-height: .4rem;
+}
+#main-content .point-pay {
+  padding: .2rem;
+  border: 1px solid #ddd;
+  line-height: .4rem;
+  background-color: #fff;
+}
+#main-content .point-pay .point-tax {
+  color: red;
+}
+#main-content .cancel {
+  text-align: center;
+}
+#main-content .cancel button {
+  width: 4rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #00d0cb;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+}
