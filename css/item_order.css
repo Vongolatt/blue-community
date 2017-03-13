@@ -3,3 +3,131 @@
   width: .7rem;
   margin: 0 .1rem .2rem  0;
 }
+#main-content {
+  font-size: .3rem;
+  color: #000;
+}
+#main-content .address {
+  background-color: #fff;
+  padding: .2rem;
+}
+#main-content .address .revise-address {
+  float: right;
+  color: #00d0cb;
+  cursor: pointer;
+}
+#main-content .details {
+  margin-top: .2rem;
+  padding: .25rem;
+  background-color: #fff;
+}
+#main-content .details .item {
+  text-align: right;
+}
+#main-content .details .item .wrap {
+  text-align: left;
+}
+#main-content .details .item .wrap img {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: top;
+}
+#main-content .details .item .wrap .content {
+  color: #000;
+  display: inline-block;
+  width: 78%;
+}
+#main-content .details .item .wrap .content h3 {
+  font-size: .3rem;
+  margin-top: .2rem;
+}
+#main-content .details .item .wrap .content .price {
+  color: #adadad;
+  margin-bottom: .2rem;
+  font-size: .27rem;
+}
+#main-content .details .item .wrap .content .price .sales-price {
+  color: red;
+  font-weight: bold;
+}
+#main-content .details .item .wrap .content .price .primary-price {
+  text-decoration: line-through;
+}
+#main-content .details .item .wrap .content .price .number {
+  float: right;
+  color: red;
+}
+#main-content .details .item .wrap .fee {
+  text-align: left;
+  padding-bottom: .1rem;
+  border-bottom: .02rem solid #ddd;
+  font-size: .25rem;
+  color: #bdbdbd;
+}
+#main-content .details .item .wrap .fee span {
+  float: right;
+}
+#main-content .details .point {
+  font-size: .3rem;
+}
+#main-content .details .point label {
+  display: inline-block;
+  margin: .5rem 0 .2rem .3rem;
+}
+#main-content .details .point label span {
+  color: #00d0cb;
+}
+#main-content .details .point input {
+  box-sizing: border-box;
+  padding: .15rem .3rem;
+  border-radius: .4rem;
+  border: 2px solid #cdcdcd;
+  width: 100%;
+  text-align: center;
+}
+#main-content .details .extra {
+  padding-bottom: .5rem;
+  border-bottom: .02rem solid #ddd;
+}
+#main-content .details .extra span {
+  display: inline-block;
+  margin: .2rem 0 .2rem .3rem;
+}
+#main-content .details .extra textarea {
+  box-sizing: border-box;
+  resize: none;
+  padding: .2rem;
+  width: 100%;
+  height: 2rem;
+  border-radius: .1rem;
+  border: 2px solid #cdcdcd;
+  outline: none;
+}
+#main-content .details .order-info {
+  text-align: right;
+}
+#main-content .details .order-info p {
+  color: #adadad;
+}
+#main-content .details .order-info p span {
+  color: #cdcdcd;
+}
+#main-content .details .order-info p:nth-child(3) {
+  color: red;
+}
+#main-content .details .order-info p:nth-child(3) span {
+  color: red;
+}
+#main-content .submit {
+  text-align: center;
+}
+#main-content .submit button {
+  width: 4rem;
+  font-size: .3rem;
+  padding: .2rem;
+  background-color: #00d0cb;
+  border-radius: .8rem;
+  color: #fff;
+  border: none;
+  margin: .3rem 0 .5rem;
+}
