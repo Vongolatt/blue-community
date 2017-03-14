@@ -4,12 +4,53 @@
   margin: 0 .1rem .2rem  0;
 }
 #main-content .advance {
+  border-top: 1px solid #ddd;
+  padding: .3rem .2rem;
   background-color: #fff;
 }
 #main-content .advance figure {
-  margin: 0;
+  margin: 0 0 .35rem 0;
+  font-size: 0;
+  background: url(../images/jdxq_7.png) no-repeat -4px 7px;
+  background-size: 36%;
 }
 #main-content .advance figure img {
-  width: .5rem;
+  width: 2rem;
+  height: 1.6rem;
+  border-radius: 4px;
+  background-size: 110%;
+}
+#main-content .advance figure div {
+  display: inline-block;
+  margin-left: .1rem;
+  width: 65%;
+  vertical-align: top;
+}
+#main-content .advance figure div figcaption {
+  color: #000;
+  font-size: .3rem;
+  vertical-align: top;
+}
+#main-content .advance figure div p {
+  margin: .1rem 0 0;
+  color: #adadad;
+  font-size: .2rem;
+  line-height: 1.3;
+}
+#main-content .advance figure div span {
+  display: inline-block;
+  font-size: .3rem;
   height: .5rem;
+  line-height: .5rem;
+  color: #ff78b7;
+  padding-left: .32rem;
+  background: url(../images/bm_10.png) no-repeat left;
+  background-size: .3rem;
+}
+#main-content .advance figure div button {
+  float: right;
+  padding: 1px;
+  width: 2rem;
+  height: .5rem;
+  font-size: .3rem;
 }
