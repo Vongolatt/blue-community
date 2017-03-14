@@ -1,7 +1,70 @@
 @import url(vary.less);
 #main-content{
+	td,th{
+		height: .8rem;
+		span{
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			line-height: 260%;
+		}
+	}
+	.calendar{
+		display: none;
+		color: #000;
+		font-size: .3rem;
+		text-align: center;
+		padding: 0 .1rem;
+		table{
+			width: 100%;
+		}
+		a{
+			font-size: .3rem;
+			margin: 0 .25rem;
+		}
+		.widget-disabled{
+			color: #cdcdcd;
+		}
+		.widget-active{
+			span{
+				background: @bg-color;
+			    color: #fff;
+			    border-radius: 50%;
+			}
+		}
+		.widget-back{
+			float: right;
+		}
+		.widget-today{
+			font-weight: 800;
+		}
+	}
+	.wrap{
+		border-bottom: 1px solid #ddd;
+	}
+	.date{
+		margin: .4rem auto .2rem;
+		width: 85%;
+		height: .6rem;
+		line-height: .6rem;
+		border-radius:.6rem; 
+		border: 2px solid #ddd;
+		font-size: 0;
+		text-align: center;
+		color: #ddd;
+		cursor: pointer;
+		span{
+			font-size: .3rem;
+			color: #000;
+			vertical-align: middle;
+		}
+		b{
+			font-size: .3rem;
+			color: #ddd;
+			vertical-align: middle;
+		}
+	}
 	.advance{
-		border-top: 1px solid #ddd;
 		padding: .3rem .2rem;
 		background-color: #fff;
 		figure{

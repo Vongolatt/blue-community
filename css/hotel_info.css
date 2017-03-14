@@ -3,8 +3,71 @@
   width: .7rem;
   margin: 0 .1rem .2rem  0;
 }
+#main-content td,
+#main-content th {
+  height: .8rem;
+}
+#main-content td span,
+#main-content th span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 260%;
+}
+#main-content .calendar {
+  display: none;
+  color: #000;
+  font-size: .3rem;
+  text-align: center;
+  padding: 0 .1rem;
+}
+#main-content .calendar table {
+  width: 100%;
+}
+#main-content .calendar a {
+  font-size: .3rem;
+  margin: 0 .25rem;
+}
+#main-content .calendar .widget-disabled {
+  color: #cdcdcd;
+}
+#main-content .calendar .widget-active span {
+  background: #00d0cb;
+  color: #fff;
+  border-radius: 50%;
+}
+#main-content .calendar .widget-back {
+  float: right;
+}
+#main-content .calendar .widget-today {
+  font-weight: 800;
+}
+#main-content .wrap {
+  border-bottom: 1px solid #ddd;
+}
+#main-content .date {
+  margin: .4rem auto .2rem;
+  width: 85%;
+  height: .6rem;
+  line-height: .6rem;
+  border-radius: .6rem;
+  border: 2px solid #ddd;
+  font-size: 0;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+#main-content .date span {
+  font-size: .3rem;
+  color: #000;
+  vertical-align: middle;
+}
+#main-content .date b {
+  font-size: .3rem;
+  color: #ddd;
+  vertical-align: middle;
+}
 #main-content .advance {
-  border-top: 1px solid #ddd;
   padding: .3rem .2rem;
   background-color: #fff;
 }
