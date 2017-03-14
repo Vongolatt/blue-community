@@ -79,3 +79,6 @@ footer a:active,
 footer a:visited {
   border-bottom: 2px solid #fff;
 }
+footer .check {
+  border-bottom: 2px solid #fff;
+}

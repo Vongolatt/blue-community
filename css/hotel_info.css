@@ -1,0 +1,15 @@
+.img {
+  height: .7rem;
+  width: .7rem;
+  margin: 0 .1rem .2rem  0;
+}
+#main-content .advance {
+  background-color: #fff;
+}
+#main-content .advance figure {
+  margin: 0;
+}
+#main-content .advance figure img {
+  width: .5rem;
+  height: .5rem;
+}
