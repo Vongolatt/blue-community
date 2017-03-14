@@ -49,8 +49,11 @@
 		border-bottom: 1px solid #ddd;
 		label{
 			margin-left: .4rem;
+			span{
+				color: @bg-color;
+			}
 		}
-		input{
+		input,textarea{
 			box-sizing: border-box;
 			width: 100%;
 			height: .8rem;
@@ -63,6 +66,13 @@
 			&::-webkit-input-placeholder{
 				color: #000;
 			}
+		}
+		textarea{
+			border-radius: 8px;
+			resize:none;
+			height: 2rem;
+			text-align: left;
+			padding: .2rem;
 		}
 	}
 	p{
